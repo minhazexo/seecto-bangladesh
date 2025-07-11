@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/seecto-bangladesh/static/css/main.784212ff.css",
-    "main.js": "/seecto-bangladesh/static/js/main.725a1ab7.js",
+    "main.css": "/seecto-bangladesh/static/css/main.afd70226.css",
+    "main.js": "/seecto-bangladesh/static/js/main.0e247df9.js",
     "static/media/fa-solid-900.ttf": "/seecto-bangladesh/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/hero-bg.jpg": "/seecto-bangladesh/static/media/hero-bg.cffbfe197b2b5e2fbe03.jpg",
     "static/media/fa-brands-400.ttf": "/seecto-bangladesh/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -13,13 +13,14 @@
     "static/media/mdmahabul.jpg": "/seecto-bangladesh/static/media/mdmahabul.fa0605f169f81a0d23bc.jpg",
     "static/media/fa-regular-400.woff2": "/seecto-bangladesh/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/fa-v4compatibility.ttf": "/seecto-bangladesh/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/texture-bg.webp": "/seecto-bangladesh/static/media/texture-bg.89a9b507f659a95430e1.webp",
     "static/media/fa-v4compatibility.woff2": "/seecto-bangladesh/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/seecto-bangladesh/index.html",
-    "main.784212ff.css.map": "/seecto-bangladesh/static/css/main.784212ff.css.map",
-    "main.725a1ab7.js.map": "/seecto-bangladesh/static/js/main.725a1ab7.js.map"
+    "main.afd70226.css.map": "/seecto-bangladesh/static/css/main.afd70226.css.map",
+    "main.0e247df9.js.map": "/seecto-bangladesh/static/js/main.0e247df9.js.map"
   },
   "entrypoints": [
-    "static/css/main.784212ff.css",
-    "static/js/main.725a1ab7.js"
+    "static/css/main.afd70226.css",
+    "static/js/main.0e247df9.js"
   ]
 }
