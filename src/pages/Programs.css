@@ -1,0 +1,13 @@
+.programs {
+  background: #fff;
+  padding: 3rem 1rem;
+}
+.programs article {
+  margin-bottom: 2rem;
+  border-left: 4px solid #1e90ff;
+  padding-left: 1rem;
+}
+.programs h2 {
+  margin-bottom: 0.5rem;
+  color: #1e90ff;
+}

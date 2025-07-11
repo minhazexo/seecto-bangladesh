@@ -1,0 +1,13 @@
+.news-events {
+  background: #d56e6e;
+  padding: 3rem 1rem;
+}
+.news-events ul {
+  list-style: disc inside;
+  margin-bottom: 1.5rem;
+  
+}
+.news-events li {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}

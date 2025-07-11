@@ -1,0 +1,18 @@
+.get-involved,
+.get-involved-page {
+  background: #20d12f;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.get-involved .btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.get-involved-page section {
+  margin-bottom: 2rem;
+}
+.get-involved-page h2 {
+  color: #2e7d32;
+}

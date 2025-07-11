@@ -1,0 +1,11 @@
+.news-page {
+  background: #fafafa;
+  padding: 3rem 1rem;
+}
+.news-page ul {
+  list-style: square inside;
+}
+.news-page li {
+  margin-bottom: 0.75rem;
+  font-size: 1.05rem;
+}

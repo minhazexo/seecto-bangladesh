@@ -1,0 +1,333 @@
+.about-intro {
+  text-align: center;
+  padding: 6rem 1rem;
+  background: linear-gradient(120deg, #ffffff, #f9f9f9);
+  position: relative;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-intro .container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.about-intro h2 {
+  font-size: 3rem;
+  color: #000000;
+  margin-bottom: 1.5rem;
+  
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.about-intro p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #000000;
+  max-width: 850px;
+  margin: 0 auto 2.5rem;
+  
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.focus-areas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.focus-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  padding: 2.5rem;
+  flex: 1 1 45%;
+  
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid transparent;
+  transition: all 0.4s ease;
+}
+
+.focus-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-top-color: #e84c3d;
+}
+
+.focus-card h3 {
+  font-size: 1.5rem;
+  color: #2d3e50;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.focus-card h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: #e84c3d;
+  transition: width 0.3s ease;
+}
+
+.focus-card:hover h3::after {
+  width: 100px;
+}
+
+.focus-card p {
+  font-size: 1rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+
+.focus-link {
+  display: inline-block;
+  color: #e84c3d;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 3px;
+  transition: all 0.3s ease;
+}
+
+.focus-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #e84c3d;
+  transition: width 0.3s ease;
+}
+
+.focus-link:hover {
+  color: #c1392d;
+}
+
+.focus-link:hover::after {
+  width: 100%;
+}
+
+.read-more {
+  display: inline-block;
+  color: #e84c3d;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px;
+  
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.read-more::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #e84c3d;
+  transition: width 0.3s ease;
+}
+
+.read-more:hover::after {
+  width: 100%;
+}
+
+/* Animation classes */
+.about-intro h2.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-intro p.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.focus-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.read-more.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Word-by-word heading animation */
+.fade-words span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.fade-words.visible span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-words.visible span:nth-child(1) {
+  transition-delay: 0.2s;
+  color: red;
+}
+.fade-words.visible span:nth-child(2) {
+  transition-delay: 0.4s;
+  color: yellow;
+}
+.fade-words.visible span:nth-child(3) {
+  transition-delay: 0.6s;
+  color: green;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .focus-areas {
+    flex-direction: column;
+  }
+
+  .focus-card {
+    flex: 1 1 100%;
+  }
+
+  .about-intro h2 {
+    font-size: 2rem;
+  }
+
+  .about-intro p {
+    font-size: 1rem;
+  }
+}
+/* Add these new styles while keeping existing animations */
+
+.vision-mission {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.focus-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  padding: 2.5rem;
+  flex: 1 1 45%;
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid transparent;
+  transition: all 0.4s ease;
+}
+
+.focus-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-top-color: #e84c3d;
+}
+
+.focus-card h3 {
+  font-size: 1.5rem;
+  color: #2d3e50;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.focus-card h3::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: #e84c3d;
+  transition: width 0.3s ease;
+}
+
+.focus-card:hover h3::after {
+  width: 100px;
+}
+
+.focus-card p,
+.focus-card ul {
+  font-size: 1rem;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+
+.focus-card ul {
+  padding-left: 1.5rem;
+  text-align: left;
+  list-style-type: disc;
+}
+
+.focus-link {
+  display: inline-block;
+  color: #e84c3d;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 3px;
+  transition: all 0.3s ease;
+}
+
+.focus-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #e84c3d;
+  transition: width 0.3s ease;
+}
+
+.focus-link:hover {
+  color: #c1392d;
+}
+
+.focus-link:hover::after {
+  width: 100%;
+}
+
+/* Keep all existing animation classes */
+/* ... */
+
+/* Responsive */
+@media (max-width: 768px) {
+  .vision-mission {
+    flex-direction: column;
+  }
+
+  .focus-card {
+    flex: 1 1 100%;
+  }
+}
