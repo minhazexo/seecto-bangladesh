@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/seecto-bangladesh/static/css/main.784212ff.css",
-    "main.js": "/seecto-bangladesh/static/js/main.d03a5152.js",
+    "main.js": "/seecto-bangladesh/static/js/main.725a1ab7.js",
     "static/media/fa-solid-900.ttf": "/seecto-bangladesh/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/hero-bg.jpg": "/seecto-bangladesh/static/media/hero-bg.cffbfe197b2b5e2fbe03.jpg",
     "static/media/fa-brands-400.ttf": "/seecto-bangladesh/static/media/fa-brands-400.1815e00441357e01619e.ttf",
@@ -16,10 +16,10 @@
     "static/media/fa-v4compatibility.woff2": "/seecto-bangladesh/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/seecto-bangladesh/index.html",
     "main.784212ff.css.map": "/seecto-bangladesh/static/css/main.784212ff.css.map",
-    "main.d03a5152.js.map": "/seecto-bangladesh/static/js/main.d03a5152.js.map"
+    "main.725a1ab7.js.map": "/seecto-bangladesh/static/js/main.725a1ab7.js.map"
   },
   "entrypoints": [
     "static/css/main.784212ff.css",
-    "static/js/main.d03a5152.js"
+    "static/js/main.725a1ab7.js"
   ]
 }
