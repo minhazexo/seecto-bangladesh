@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/seecto-bangladesh/static/css/main.784212ff.css",
+    "main.js": "/seecto-bangladesh/static/js/main.725a1ab7.js",
+    "static/media/fa-solid-900.ttf": "/seecto-bangladesh/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
+    "static/media/hero-bg.jpg": "/seecto-bangladesh/static/media/hero-bg.cffbfe197b2b5e2fbe03.jpg",
+    "static/media/fa-brands-400.ttf": "/seecto-bangladesh/static/media/fa-brands-400.1815e00441357e01619e.ttf",
+    "static/media/fa-solid-900.woff2": "/seecto-bangladesh/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
+    "static/media/fa-brands-400.woff2": "/seecto-bangladesh/static/media/fa-brands-400.c210719e60948b211a12.woff2",
+    "static/media/fa-regular-400.ttf": "/seecto-bangladesh/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
+    "static/media/habiba.jpg": "/seecto-bangladesh/static/media/habiba.fa0605f169f81a0d23bc.jpg",
+    "static/media/khadiza.jpg": "/seecto-bangladesh/static/media/khadiza.fa0605f169f81a0d23bc.jpg",
+    "static/media/mdmahabul.jpg": "/seecto-bangladesh/static/media/mdmahabul.fa0605f169f81a0d23bc.jpg",
+    "static/media/fa-regular-400.woff2": "/seecto-bangladesh/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/seecto-bangladesh/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
+    "static/media/fa-v4compatibility.woff2": "/seecto-bangladesh/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
+    "index.html": "/seecto-bangladesh/index.html",
+    "main.784212ff.css.map": "/seecto-bangladesh/static/css/main.784212ff.css.map",
+    "main.725a1ab7.js.map": "/seecto-bangladesh/static/js/main.725a1ab7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.784212ff.css",
+    "static/js/main.725a1ab7.js"
+  ]
+}
